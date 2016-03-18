@@ -1,0 +1,48 @@
+[
+    {
+        "id":"1",
+        "name":"iPhone",
+        "price":"250.55",
+        "description":"This is product description",
+        "specification":"This is product specification",
+        "img":"img/iPhone 6.png",
+        "reviews":[
+            {
+            "stars":"4",
+            "body":"I love the product",
+            "author":"Karim"
+            },
+            {
+                "stars":"5",
+                "body":"I love the product",
+                "author":"Rahim"
+            }
+        ]
+    },
+    {
+        "id":"2",
+        "name":"iPhone Cover",
+        "price":"50.55",
+        "description":"This is product description",
+        "specification":"This is product specification",
+        "image":"img/iphone.png",
+        "reviews":{
+            "stars":"4",
+            "body":"I love the product",
+            "author":"Karim"
+        }
+    },
+    {
+        "id":"3",
+        "name":"iPhone6",
+        "price":"350.55",
+        "description":"This is product description",
+        "specification":"This is product specification",
+        "image":"img/iphone.png",
+        "reviews":{
+            "stars":"4",
+            "body":"I love the product",
+            "author":"Karim"
+        }
+    }
+]

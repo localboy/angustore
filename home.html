@@ -1,0 +1,23 @@
+<h2>Product list</h2>
+<div ng-controller="ProductController">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="product in products">
+                <td>{{product.id}}</td>
+                <td>{{product.name}}</td>
+                <td>{{product.price}}</td>
+                <td>
+                    <a href="#/detail/{{product.id}}"><button class="btn btn-success">View</button></a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
